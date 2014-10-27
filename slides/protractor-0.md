@@ -1,0 +1,1 @@
+<img src="images/protractor-logo.png" />

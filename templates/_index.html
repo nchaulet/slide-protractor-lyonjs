@@ -13,8 +13,22 @@
 
         <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
     
-        <link rel="stylesheet" href="bower_components/reveal.js/css/theme/default.css" id="theme">
     
+        <link rel="stylesheet" href="css/protractor.css" id="theme">
+
+        <style type="text/css">
+            img {
+                border: none !important;
+                box-shadow: none !important;
+            }
+            .pull-left {
+                float: left;
+                margin-right: 20px !important;
+            }
+            p {
+                text-align: left;
+            }
+        </style>
 
         <!-- For syntax highlighting -->
         <link rel="stylesheet" href="bower_components/reveal.js/lib/css/zenburn.css" id="highlight-theme">
@@ -68,9 +82,18 @@
                 progress: true,
                 history: true,
                 center: true,
+                width: 800,
+                height: 400,
+
+                // Factor of the display size that should remain empty around the content
+                margin: 0.1,
+
+                // Bounds for smallest/largest possible scale to apply to content
+                minScale: 0.2,
+                maxScale: 1.2,
 
                 theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+                transition: 'fade', // default/cube/page/concave/zoom/linear/fade/none
 
                 // Optional libraries used to extend on reveal.js
                 dependencies: [

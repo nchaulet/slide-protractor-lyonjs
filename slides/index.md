@@ -1,10 +1,5 @@
+# Test your angularJS app with Protractor
 
-# Protractor
-
-From the terminal, pop in:
-
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+<center>
+[@n_chaulet](https://twitter.com/n_chaulet)
+</center>
