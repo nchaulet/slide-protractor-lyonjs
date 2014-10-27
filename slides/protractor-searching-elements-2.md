@@ -1,15 +1,9 @@
-
-Par reapeter:
-
-```javascript
-element(
-	by.repeater('user in users').row(0).column('name')
-)
-```
+Par Binding: `element(by.binding('myModel'))`
 ```html
-<ul>
-  <li ng-repeat="user in users">
-      <span>{{user.name}}</span>
-  </li>
-</ul>
+<input ng-bind="myModel" />
+```
+
+Par Model : `element(by.model('myModel'))`
+```html
+<input ng-model="myModel" />
 ```

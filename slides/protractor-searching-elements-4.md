@@ -1,4 +1,5 @@
-## Searching Elements : Best practice
 
-* Utilisez les selecteurs propre a angularJS `by.model`, `by.repeater`
-* Eviter d'utiliser les selecteurs css
+Par CSS: `element(by.css('#myModel'))`
+```html
+<input id="myModel" />
+```

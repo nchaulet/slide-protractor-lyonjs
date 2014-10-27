@@ -1,22 +1,15 @@
-## Use `multiCapabilities`
 
 ```javascript
-exports.config = {
-  seleniumAddress: 'http://localhost:4444/wd/hub',
+//angular-homepage.spec.js
 
-  multiCapabilities: [
-	{
-	  'browserName' : 'chrome'
-	}, 
-	{
-	  'browserName' : 'firefox'
-	}
-  ],
+var AngularHomepage = require('page/homepage.js'),
+describe('angularjs homepage', function() {
+  it('should greet the named user', function() {
+    var page = new AngularHomepage();
 
-  specs: ['homage-spec.js'],
+    page.setName('LyonJS');
 
-  jasmineNodeOpts: {
-    showColors: true
-  }
-};
+    expect(page.greeting.getText()).toEqual('Hello LyonJS!');
+  });
+});
 ```

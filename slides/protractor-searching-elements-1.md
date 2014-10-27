@@ -1,9 +1,3 @@
-Par Binding: `element(by.binding('myModel'))`
-```html
-<input ng-bind="myModel" />
-```
+`element()`: Récupérer un element 
 
-Par Model : `element(by.model('myModel'))`
-```html
-<input ng-model="myModel" />
-```
+`element.all()`: Récupérer plusieurs elements 

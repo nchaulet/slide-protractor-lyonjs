@@ -1,1 +1,1 @@
-##  Protractor - Searching Elements
+##  Protractor - Récuperer des elements

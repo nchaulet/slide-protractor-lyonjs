@@ -1,4 +1,1 @@
-## Protractor Best practice
-
-Use page object pattern
-
+## Tips & Best practices

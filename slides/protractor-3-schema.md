@@ -1,0 +1,2 @@
+<img src="images/protractor-schema.png" alt="schema" height="350" style="margin:auto; display:block;margin-bottom:0;">
+<p style="font-size: .6em;text-align: right;">Source: <a href="http://www.thoughtworks.com//insights/blog/testing-angularjs-apps-protractor">Testing AngularJS apps with Protractor</a></p>

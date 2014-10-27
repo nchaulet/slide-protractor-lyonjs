@@ -1,4 +1,4 @@
-## Install protractor
+## Installer protractor
 
 1. Installer node.js
 

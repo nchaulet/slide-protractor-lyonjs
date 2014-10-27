@@ -1,5 +1,5 @@
 ##  Tests E2E
 
-* test les interactions utilisateurs
-* test les echanges frontend/backend
-* dans un environnement réel®
+* teste les interactions utilisateurs
+* dans un environnement réel
+* complémentaire au test unitaire

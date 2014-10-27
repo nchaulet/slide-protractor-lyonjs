@@ -1,5 +1,15 @@
 
-Par CSS: `element(by.css('#myModel'))`
+Par reapeter:
+
+```javascript
+element(
+	by.repeater('user in users').row(0).column('name')
+)
+```
 ```html
-<input id="myModel" />
+<ul>
+  <li ng-repeat="user in users">
+      <span>{{user.name}}</span>
+  </li>
+</ul>
 ```
