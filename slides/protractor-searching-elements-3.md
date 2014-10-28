@@ -1,5 +1,5 @@
 
-Par reapeter:
+Par repeater:
 
 ```javascript
 element(

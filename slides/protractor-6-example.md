@@ -1,4 +1,4 @@
-##  Protractor - Example
+##  Protractor - Exemple
 
 
 ```javascript

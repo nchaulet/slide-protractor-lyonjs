@@ -1,3 +1,3 @@
 `element()`: Récupérer un element 
 
-`element.all()`: Récupérer plusieurs elements 
+`element.all()`: Récupérer plusieurs éléments 
