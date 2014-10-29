@@ -68,6 +68,8 @@ module.exports = (grunt) ->
                         'slides/**'
                         'bower_components/**'
                         'js/**'
+                        'images/**'
+                        'css/**'
                     ]
                     dest: 'dist/'
                 },{
@@ -87,7 +89,7 @@ module.exports = (grunt) ->
                 message: 'Built from %sourceCommit% on branch %sourceBranch%'
             pages:
                 options:
-                    remote: 'git@github.com:nchaulet/slide-lyonjs-protractor.git'
+                    remote: 'git@github.com:nchaulet/slide-protractor-lyonjs.git'
                     branch: 'gh-pages'
         
 
